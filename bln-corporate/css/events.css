@@ -1,0 +1,254 @@
+
+
+
+/*
+register
+*/
+
+#event-register {
+    text-align: right;
+}
+#event-register .container-inner-full-width {
+	padding-bottom: 25px;
+}
+#event-register .button-message p.message {
+    margin: -31px 160px 0 0;
+}
+
+
+
+
+
+
+
+/*
+why attend
+*/
+
+#event-attend h1 {
+	margin-top: 40px;
+}
+#event-attend .container-right {
+	width: 33.4%;
+	min-height: 280px
+}
+
+@media all and (max-width: 767px) {
+	#event-attend .container-right {
+		width: 33.35%;
+	}
+}
+@media all and (max-width: 640px) {
+	#event-attend .container-right {
+		min-height: 230px
+	}
+}
+
+
+
+/*
+event speaker
+*/
+
+#event-speakers .speaker {
+	float: left;
+	width: 33.333333%;
+}
+
+#event-speakers .thumbnail {
+	height: auto;
+}
+#event-speakers .thumbnail-inner {
+	padding:20px 20px;}
+#event-speakers .speaker h4.name {
+	position: relative;
+	padding: 12px 20px;
+	color: rgb(255,255,255);
+}
+#event-speakers .speaker .name-inner {
+	overflow: hidden;
+    white-space: nowrap;
+}
+	
+
+#event-speakers .speaker .bio-outer {
+	margin-top: -16px;
+}
+#event-speakers .speaker .bio-inner {
+	padding: 20px;
+	height: 200px;
+}
+#event-speakers .speaker .bio-more {
+	padding: 0 20px 20px 20px;
+}
+
+@media all and (max-width: 767px) {
+	#event-speakers .speaker .bio-inner {
+		height: 250px;
+	}
+}
+@media all and (max-width: 512px) {
+	#event-speakers .speaker {
+		width: 50%;
+	}
+}
+@media all and (max-width: 360px) {
+	#event-speakers .speaker h4.name {
+		padding: 12px 10px;
+	}
+	#event-speakers .speaker .bio-inner {
+		padding: 20px 10px;
+	}
+	#event-speakers .speaker .bio-more {
+		padding: 0 10px 20px 10px;
+	}
+}
+
+
+
+/*
+event sponsors
+*/
+
+.sponsor-1 .container-inner {
+	text-align: center;
+}
+.sponsor-1 h1 {
+	font-size: 32px;
+}
+.sponsor-1 .sponsor-outer {
+	width: 100%;
+}
+.sponsor-1 .sponsor-inner {
+	margin: 30px 20px 0 20px
+}
+.sponsor-2 .sponsor-outer {
+	float: left;
+	width: 50%;
+}
+.sponsor-2 .sponsor-inner {
+	margin: 20px;
+}
+.sponsor-3 .sponsor-outer{
+	float: left;
+	width: 25%;
+}
+.sponsor-3 .sponsor-inner {
+	margin: 20px;
+}
+
+@media all and (max-width: 512px) {
+	.sponsor-1 .container-inner {
+		text-align: left;
+	}
+	.sponsor-1 .sponsor-outer {
+		float: left;
+		width: 50%;
+	}
+	.sponsor-2 .sponsor-inner {
+		margin: 10px;
+	}
+	.sponsor-3 .sponsor-outer {
+		width: 33%;
+	}
+	.sponsor-3 .sponsor-inner {
+		margin: 10px;
+	}
+}
+
+
+
+
+
+/*
+event pitch
+*/
+
+#event-pitch .container-inner {
+	padding-bottom: 15px;
+}
+
+.content-main.event h1,
+.content-main.event h2,
+.content-main.event h3 {
+    margin: 0;
+    color: rgb(90,90,90);
+    margin-bottom: 0.5em;
+}
+.content-main.event ul,
+.content-main.event ol{
+    margin: 20px 0;
+    padding: 0;
+}
+.content-main.event ul {
+    list-style: none;
+}
+.content-main.event li {
+    list-style-position: inside;
+    text-indent: -1.26em;
+    margin: 0 20px 0.8em 2em;
+    padding: 0;
+}
+.content-main.event ul li:before {
+    position: relative;
+    left: -0.8em;
+    content: " ";
+    border-left: 1.25em solid #2f2f2f;
+}
+
+
+
+/*
+event share
+*/
+
+#event-share .container-inner {
+	padding-top: 0;
+}
+#event-share  .sharing {
+    margin-top: 0;
+}
+
+
+
+
+/*
+event venue
+*/
+
+#event-venue .venue {
+	float: left;
+	margin-right: 276px;
+}
+#event-venue .map {
+	float: right;
+	width: 256px;
+	margin: 0px 0 0 -256px;
+}
+
+@media all and (max-width: 640px) {
+	#event-venue .venue {
+		display: block;
+		margin-right: 0;
+		width: 100%;
+	}
+	#event-venue .map {
+		float: left;
+		margin: 0 0 0 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

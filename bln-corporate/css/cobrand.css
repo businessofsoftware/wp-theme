@@ -1,0 +1,720 @@
+
+
+
+.preload-events-images {
+    background: url("../event-images/bosuk_logo_name_color.svg") no-repeat -9999px -9999px;
+    background: url("../event-images/bosuk_logo_name_color.svg") no-repeat -9999px -9999px,
+                url("../event-images/bos_logo_name_color.svg") no-repeat -9999px -9999px,
+                url("../event-images/ceo_logo_name_color.svg") no-repeat -9999px -9999px,
+                url("../event-images/iot_logo_name_color.svg") no-repeat -9999px -9999px;
+}
+
+
+
+
+/*
+ceo tales evening event cobrand
+*/
+.ceo .fg-0 {
+    color:rgb(76,191,167);
+}
+.ceo .bk-0 {
+    background:rgb(76,191,167);
+}
+.ceo .beak-0:after {
+    border-color: rgb(76,191,167) transparent transparent transparent;
+}
+.ceo .bk-1 {
+    background:rgb(137,181,167);
+}
+.ceo .beak-1:after {
+    border-color: rgb(137,181,167) transparent transparent transparent;
+}
+.ceo .bk-2 {
+    background:rgb(153,213,199);
+}
+.ceo .beak-2:after {
+    border-color: rgb(153,213,199) transparent transparent transparent;
+}
+.ceo .bk-3 {
+    background:rgb(30,129,106)
+}
+.ceo .beak-3:after {
+    border-color: rgb(30,129,106) transparent transparent transparent
+}
+.ceo .bk-4 {
+    background:rgb(138,187,177)
+}
+.ceo .beak-4:after {
+    border-color: rgb(138,187,177) transparent transparent transparent
+}
+.ceo .bk-5 {
+    background:rgb(83,154,135)
+}
+.ceo .beak-5:after {
+    border-color: rgb(83,154,135) transparent transparent transparent
+}
+.ceo .content-main.event li:before {
+    border-color: rgb(76,191,167);
+}
+.ceo .logo {
+    background-image: url("../event-images/ceo_logo_name_color.svg");
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    background-size: 150px auto;
+}
+@media all and (max-width: 567px) {
+    .ceo .logo {
+        background-size: 110px auto;
+    }
+}
+#events .ceo .logo {
+    background-image: url("../event-images/ceo_logo_name_white.svg");
+}
+#events .ceo:hover .logo {
+    background-image: url("../event-images/ceo_logo_name_color.svg");
+}
+.ceo a.button,
+#events .ceo:hover a.button {
+    color: rgb(255,255,255); 
+    background-color: rgb(76,191,167);
+}
+.ceo a.button:hover,
+#events .ceo:hover a.button:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(34,129,106);
+}
+#events .ceo {
+    color:rgb(255,255,255);
+}
+#events .ceo:hover {
+    color:rgb(76,191,167);
+    background-color: rgb(255,255,255);
+}
+.ceo ul.main_menu a.active,
+.ceo ul.main_menu a:hover {
+    background: rgb(76,191,167);
+}
+.ceo ul.main_menu a.active:after,
+.ceo ul.main_menu a:hover:after {
+    border-color: rgb(76,191,167) transparent transparent transparent;
+}
+.ceo .hero {
+    background-image: url("../event-images/ceo_hero.jpg");
+}
+.ceo .content-main a {
+    color: rgb(76,191,167);
+}
+.ceo #why .container-left .container-inner {
+    height: 180px;
+}
+.ceo #paging-control ul a:hover {
+    background-color:rgba(76,191,167, 0.5);
+}
+.ceo #paging-control ul a:active {
+    background-color:rgb(76,191,167);
+}
+.ceo #paging-control ul span.current {
+    background-color:rgb(76,191,167);
+}
+.ceo .wp-comments a {
+    color:rgb(76,191,167);
+}
+.ceo .title-block a {
+    color: rgb(255,255,255);
+}
+.ceo .content-main.event li:before {
+    border-color: rgb(76,191,167);
+}
+
+
+
+
+/*
+iot conference cobrand
+*/
+
+.iot .fg-0 {
+    color:rgb(154,202,59);
+}
+.iot .bk-0 {
+    background: rgb(154,202,59);
+}
+.iot .beak-0:after {
+    border-color: rgb(154,202,59) transparent transparent transparent;
+}
+.iot .bk-1 {
+    background:rgb(88,98,59);
+}
+.iot .beak-1:after {
+    border-color: rgb(88,98,59) transparent transparent transparent;
+}
+.iot .bk-2 {
+    background:rgb(171,210,105);
+}
+.iot .beak-2:after {
+    border-color: rgb(171,210,105) transparent transparent transparent;
+}
+.iot .bk-3 {
+    background:rgb(154,202,59);
+}
+.iot .beak-3:after {
+    border-color: rgb(154,202,59) transparent transparent transparent;
+}
+.iot .bk-4 {
+    background:rgb(139,168,85);
+}
+.iot .beak-4:after {
+    border-color: rgb(139,168,85) transparent transparent transparent;
+}
+.iot .bk-5 {
+    background:rgb(193,221,148);
+}
+.iot .beak-5:after {
+    border-color: rgb(193,221,148) transparent transparent transparent
+}
+.iot ul.main_menu a.active,
+.iot ul.main_menu a:hover {
+    background: rgb(154,202,59);
+}
+.iot ul.main_menu a.active:after,
+.iot ul.main_menu a:hover:after {
+    border-color: rgb(154,202,59) transparent transparent transparent;
+}
+.iot .content-main.event li:before {
+    border-color: rgb(154,202,59);
+}
+
+.iot .logo {
+    background-image: url("../event-images/iot_logo_name_color.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 230px auto;
+}
+@media all and (max-width: 567px) {
+    .iot .logo {
+        background-size: 160px auto;
+    }
+}
+
+#events .iot .logo {
+    background-image: url("../event-images/iot_logo_name_white.svg");
+}
+#events .iot:hover .logo {
+    background-image: url("../event-images/iot_logo_name_color.svg");
+}
+.iot .hero {
+    background-image: url("../event-images/iot_hero.jpg");
+}
+.iot .content-main a {
+    color: rgb(154,202,59);
+}
+.iot a.button,
+#events .iot:hover a.button {
+    color: rgb(255,255,255); 
+    background-color: rgb(154,202,59);
+}
+.iot a.button:hover,
+#events .iot:hover a.button:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(88,98,59);
+}
+#events .iot {
+    color:rgb(255,255,255);
+}
+#events .iot:hover {
+    color:rgb(154,202,59);
+    background-color: rgb(255,255,255);
+}
+.iot #paging-control ul a:hover {
+    background-color:rgba(154,202,59,0.5);
+}
+.iot #paging-control ul a:active {
+   background-color:rgb(154,202,59);
+}
+.iot #paging-control ul span.current {
+   background-color:rgb(154,202,59);
+}
+.iot .wp-comments a {
+    color:rgb(154,202,59);
+}
+.iot .title-block a {
+    color: rgb(255,255,255);
+}
+.iot input[type=submit] {
+    background-color:rgb(154,202,59);
+}
+.iot input[type=submit]:hover {
+    background-color: rgb(88,98,59);
+}
+
+.iot #filters input[type=checkbox]{
+    border: 1px solid rgb(154,202,59);
+}
+.iot #filters input[type='checkbox']:checked:before {
+    border-bottom: 2px solid rgb(154,202,59);
+    border-left: 2px solid rgb(154,202,59);
+}
+
+.iot .boilerplate {
+    background-color: rgba(154,202,59,0.2);
+}
+.bos #filters input[type=radio]{
+    border: 1px solid rgb(154,202,59);
+} 
+.bos #filters input[type='radio']:checked:before {
+    background-color: rgb(154,202,59);
+}
+
+
+/*
+bos conference cobrand
+*/
+
+.bos .fg-0 {
+    color:rgb(238,94,48);
+}
+.bos .bk-0 {
+    background:rgb(238,94,48);
+}
+.bos .beak-0:after {
+    border-color: rgb(238,94,48) transparent transparent transparent;
+}
+.bos .bk-1 {
+    background:rgb(216,53,51);
+}
+.bos .beak-1:after {
+    border-color: rgb(216,53,51) transparent transparent transparent;
+}
+.bos .bk-2 {
+    background:rgb(238,51,37);
+}
+.bos .beak-2:after {
+    border-color: rgb(238,51,37) transparent transparent transparent;
+}
+.bos .bk-3 {
+    background:rgb(243,115,33);
+}
+.bos .beak-3:after {
+    border-color: rgb(243,115,33) transparent transparent transparent;
+}
+.bos .bk-4 {
+    background:rgb(171,52,47);
+}
+.bos .beak-4:after {
+    border-color: rgb(171,52,47) transparent transparent transparent;
+}
+.bos .bk-5 {
+    background:rgb(247,151,49);
+}
+.bos .beak-5:after {
+    border-color: rgb(247,151,49) transparent transparent transparent;
+}
+.bos ul.main_menu a.active,
+.bos ul.main_menu a:hover {
+    background: rgb(238,93,49);
+}
+.bos ul.main_menu a.active:after,
+.bos ul.main_menu a:hover:after {
+    border-color: rgb(238,93,49) transparent transparent transparent;
+}
+.bos .content-main.event li:before {
+    border-color: rgb(222,87,52);
+}
+
+.bos .logo {
+    background-image: url("../event-images/bos_logo_name_color.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 230px auto;
+}
+
+@media all and (max-width: 567px) {
+    .bos .logo {
+        background-size: 160px auto;
+    }
+}
+
+#events .bos .logo {
+    background-image: url("../event-images/bos_logo_name_white.svg");
+}
+#events .bos:hover .logo {
+    background-image: url("../event-images/bos_logo_name_color.svg");
+}
+.bos .hero {
+    background-image: url("../event-images/bos_hero.jpg");
+}
+.bos .content-main a {
+    color: rgb(238,94,48);
+}
+.bos a.button,
+#events .bos:hover a.button {
+    color: rgb(255,255,255); 
+    background-color: rgb(238,94,48);
+}
+.bos a.button:hover,
+#events .bos:hover a.button:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(171,52,47);
+}
+#events .bos {
+    color:rgb(255,255,255);
+}
+#events .bos:hover {
+    color:rgb(238,94,48);
+    background-color: rgb(255,255,255);
+}
+.bos #paging-control ul a:hover {
+    background-color:rgba(238,94,48,0.5);
+}
+.bos #paging-control ul a:active {
+   background-color:rgb(238,94,48);
+}
+.bos #paging-control ul span.current {
+   background-color:rgb(238,94,48);
+}
+.bos .wp-comments a {
+    color:rgb(238,94,48);
+}
+.bos .title-block a {
+    color: rgb(255,255,255);
+}
+.bos input[type=submit] {
+    background-color:rgb(238,94,48);
+}
+.bos input[type=submit]:hover {
+    background-color: rgb(171,52,47);
+}
+.bos #filters input[type=checkbox]{
+    border: 1px solid rgb(238,94,48);
+}
+.bos #filters input[type='checkbox']:checked:before {
+    border-bottom: 2px solid rgb(238,94,48);
+    border-left: 2px solid rgb(238,94,48);
+}
+.bos #filters input[type=radio]{
+    border: 1px solid rgb(238,94,48);
+} 
+.bos #filters input[type='radio']:checked:before {
+    background-color: rgb(238,94,48);
+}
+
+.bos .boilerplate {
+    background-color: rgba(238,94,48,0.2);
+}
+
+
+
+/*
+bosuk conference cobrand
+*/
+
+.bosuk .fg-0 {
+    color:rgb(238,94,48);
+}
+.bosuk .bk-0 {
+    background:rgb(238,94,48);
+}
+.bosuk .beak-0:after {
+    border-color: rgb(238,94,48) transparent transparent transparent;
+}
+.bosuk .bk-1 {
+    background:rgb(216,53,51);
+}
+.bosuk .beak-1:after {
+    border-color: rgb(216,53,51) transparent transparent transparent;
+}
+.bosuk .bk-2 {
+    background:rgb(238,51,37);
+}
+.bosuk .beak-2:after {
+    border-color: rgb(238,51,37) transparent transparent transparent;
+}
+.bosuk .bk-3 {
+    background:rgb(243,115,33);
+}
+.bosuk .beak-3:after {
+    border-color: rgb(243,115,33) transparent transparent transparent;
+}
+.bosuk .bk-4 {
+    background:rgb(171,52,47);
+}
+.bosuk .beak-4:after {
+    border-color: rgb(171,52,47) transparent transparent transparent;
+}
+.bosuk .bk-5 {
+    background:rgb(247,151,49);
+}
+.bosuk .beak-5:after {
+    border-color: rgb(247,151,49) transparent transparent transparent;
+}
+.bosuk ul.main_menu a.active,
+.bosuk ul.main_menu a:hover {
+    background: rgb(238,93,49);
+}
+.bosuk ul.main_menu a.active:after,
+.bosuk ul.main_menu a:hover:after {
+    border-color: rgb(238,93,49) transparent transparent transparent;
+}
+.bosuk .content-main.event li:before {
+    border-color: rgb(222,87,52);
+}
+.bosuk .logo {
+    background-image: url("../event-images/bosuk_logo_name_color.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 230px auto;
+}
+@media all and (max-width: 567px) {
+    .bosuk .logo {
+        background-size: 160px auto;
+    }
+}
+#events .bosuk .logo {
+    background-image: url("../event-images/bosuk_logo_name_white.svg");
+}
+#events .bosuk:hover .logo {
+    background-image: url("../event-images/bosuk_logo_name_color.svg");
+}
+.bosuk .hero {
+    background-image: url("../event-images/bosuk_hero.jpg");
+}
+.bosuk .content-main a {
+    color: rgb(238,94,48);
+}
+.bosuk a.button,
+#events .bosuk:hover a.button {
+    color: rgb(255,255,255); 
+    background-color: rgb(238,94,48);
+}
+.bosuk a.button:hover,
+#events .bosuk:hover a.button:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(171,52,47);
+}
+#events .bosuk {
+    color:rgb(255,255,255);
+}
+#events .bosuk:hover {
+    color:rgb(238,94,48);
+    background-color: rgb(254,254,254);
+}
+.bosuk #paging-control ul a:hover {
+    background-color:rgba(238,94,48,0.5);
+}
+.bosuk #paging-control ul a:active {
+   background-color:rgb(238,94,48);
+}
+.bosuk #paging-control ul span.current {
+   background-color:rgb(238,94,48);
+}
+.bosuk .wp-comments a {
+    color:rgb(238,94,48);
+}
+.bosuk .title-block a {
+    color: rgb(255,255,255);
+}
+.bosuk input[type=submit] {
+    background-color:rgb(238,94,48);
+}
+.bosuk input[type=submit]:hover {
+    background-color: rgb(171,52,47);
+}
+.bosuk #filters input[type=checkbox]{
+    border: 1px solid rgb(238,94,48);
+}
+.bosuk #filters input[type='checkbox']:checked:before {
+    border-bottom: 2px solid rgb(238,94,48);
+    border-left: 2px solid rgb(238,94,48);
+}
+.bosuk #filters input[type=radio]{
+    border: 1px solid rgb(238,94,48);
+} 
+.bosuk #filters input[type='radio']:checked:before {
+    background-color: rgb(238,94,48);
+}
+.bosuk .boilerplate {
+    background-color: rgba(238,94,48,0.2);
+}
+
+
+
+
+
+/*
+boseu conference cobrand
+*/
+
+.boseu .fg-0 {
+    color:rgb(190,49,38);
+}
+.boseu .bk-0 {
+    background:rgb(190,49,38);
+}
+.boseu .beak-0:after {
+    border-color: rgb(190,49,38) transparent transparent transparent;
+}
+.boseu .bk-1 {
+    background:rgb(216,53,51);
+}
+.boseu .beak-1:after {
+    border-color: rgb(216,53,51) transparent transparent transparent;
+}
+.boseu .bk-2 {
+    background:rgb(238,51,37);
+}
+.boseu .beak-2:after {
+    border-color: rgb(238,51,37) transparent transparent transparent;
+}
+.boseu .bk-3 {
+    background:rgb(243,115,33);
+}
+.boseu .beak-3:after {
+    border-color: rgb(243,115,33) transparent transparent transparent;
+}
+.boseu .bk-4 {
+    background:rgb(171,52,47);
+}
+.boseu .beak-4:after {
+    border-color: rgb(171,52,47) transparent transparent transparent;
+}
+.boseu .bk-5 {
+    background:rgb(247,151,49);
+}
+.boseu .beak-5:after {
+    border-color: rgb(247,151,49) transparent transparent transparent;
+}
+.boseu ul.main_menu a.active,
+.boseu ul.main_menu a:hover {
+	background:rgb(190,49,38);
+}
+.boseu ul.main_menu a.active:after,
+.boseu ul.main_menu a:hover:after {
+    border-color: rgb(190,49,38) transparent transparent transparent;
+}
+.boseu .content-main.event li:before {
+    border-color: rgb(190,49,38);
+}
+.boseu .logo {
+    background-image: url("../event-images/boseu_logo_name_color.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 230px auto;
+}
+@media all and (max-width: 567px) {
+    .boseu .logo {
+        background-size: 160px auto;
+    }
+}
+#events .boseu .logo {
+    background-image: url("../event-images/boseu_logo_name_white.svg");
+    
+}
+#events .boseu:hover .logo {
+    background-image: url("../event-images/boseu_logo_name_color.svg");
+}
+.boseu .hero {
+    background-image: url("../event-images/boseu_hero.jpg");
+}
+.boseu .content-main a {
+    color: rgb(190,49,38);
+}
+
+
+.boseu a.button,
+#events .boseu:hover a.button{
+    color: rgb(255,255,255); 
+    background-color: rgb(190,49,38);
+}
+
+.boseu a.button:hover,
+#events .boseu:hover a.button:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(151,52,47);
+}
+
+#events .boseu {
+    color:rgb(255,255,255);
+}
+#events .boseu:hover {
+    color:rgb(190,49,38);
+    background-color: rgb(254,254,254);
+}
+
+
+.boseu #paging-control ul a:hover {
+    background-color:rgba(190,49,38,0.5);
+}
+.boseu #paging-control ul a:active {
+   background-color:rgb(190,49,38);
+}
+.boseu #paging-control ul span.current {
+   background-color:rgb(190,49,38);
+}
+.boseu .wp-comments a {
+    color:rgb(190,49,38);
+}
+.boseu .title-block a {
+    color: rgb(255,255,255);
+}
+
+
+
+
+.boseu input[type=submit] {
+    background-color:rgb(190,49,38);
+}
+.boseu input[type=submit]:hover {
+    background-color: rgb(190,49,38);
+}
+.boseu #filters input[type=checkbox]{
+    border: 1px solid rgb(190,49,38);
+}
+.boseu #filters input[type='checkbox']:checked:before {
+    border-bottom: 2px solid rgb(190,49,38);
+    border-left: 2px solid rgb(190,49,38);
+}
+.boseu #filters input[type=radio]{
+    border: 1px solid rgb(190,49,38);
+} 
+.boseu #filters input[type='radio']:checked:before {
+    background-color: rgb(190,49,38);
+}
+
+.boseu #filters .select-style {
+	border: 1px solid rgb(190,49,38);
+}
+
+
+.boseu a#clear-topics {
+	color: rgb(190,49,38);
+}
+.boseu #filters .select-style::after {
+	border-top-color: rgb(190,49,38);
+}
+
+.boseu #filters .select-style select {
+	color: rgb(190,49,38);
+}
+
+.boseu .boilerplate {
+    background-color: rgba(190,49,38,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

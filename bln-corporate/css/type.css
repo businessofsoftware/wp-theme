@@ -1,0 +1,296 @@
+
+body {
+    font-family: 'Century Gothic W01';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    -webkit-text-size-adjust: none;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.25em;
+    margin: 0 0 0.2em 0;
+}
+h1.beak {
+    position: relative;
+    font-size: 24px;
+    margin: 0;
+    padding: 0.5em 0.8em;
+    color: rgb(255,255,255);
+}
+h1.beak:after {
+    left: 0.8em;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.25em;
+    margin: 0 0 0.5em 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 1em 0;
+}
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+}
+h5 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+}
+h6 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+}
+
+p, li, pre, address, td, th {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+p, pre, address {
+    margin: 0 0 1.3em 0;
+}
+p.beak {
+    position: relative;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(255,255,255);
+}
+p.beak:after {
+    left: 10px;
+}
+p.message {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+em, i, address {
+    font-style: italic;
+    font-weight: 300;
+}
+strong, b {
+    font-weight: 500;
+}
+
+
+
+blockquote {
+    margin: 1em 0 1em 0;
+    padding-left: 1em;
+    color: rgb(120,120,120);
+    border-left: 0.3em solid rgb(200,200,200);
+}
+.pullquote p {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(170,170,170);
+    margin: 1em 0 1em 0;
+    padding-left: 1em;
+    border-left: 0.3em solid rgb(220,220,220);
+}
+
+pre {
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+ol, ul {
+    margin: 1em 0 1em 1.25em;
+}
+ol {
+    list-style-type: decimal;
+}
+ul {
+    list-style-type: square;
+}
+ul.plain {
+  list-style-type: none;  
+}
+
+label {
+    cursor: pointer
+}
+
+a {
+    font-weight: 500;
+    color: rgb(80,114,174);
+    text-decoration: none;
+}
+a:focus {
+    outline:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a.blog-title {
+    font-weight: 300;
+    color: rgb(255,255,255);
+    padding-bottom: 2px;
+}
+a.blog-title:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+}
+
+
+
+@media all and (max-width: 640px) {
+    h1.beak {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+
+
+@media all and (max-width: 567px) {
+    h1 {
+        font-size: 38px;
+        line-height: 1.3em;
+    }
+    h1.beak {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    h1.beak:after {
+        left: 20px;
+    }
+    h2 {
+       font-size: 32px; 
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    p, td, th {
+        font-size: 13px;
+    }
+    p.beak {
+        padding-left: 15px;
+    }
+    p.beak:after {
+        left: 10px;
+    }
+    .pullquote p {
+        font-size: 16px;
+    }
+    p.message {
+        font-size: 14px;
+    }
+    li {
+        font-size: 13px;
+    }
+}
+
+
+@media all and (max-width: 360px) {
+    h1 {
+        font-size: 38px;
+    }
+    h1.beak {
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    h1.beak:after {
+        left: 10px;
+    }
+    h2 {
+       font-size: 28px; 
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    p, td, th {
+        font-size: 13px;
+    }
+    .pullquote p {
+        font-size: 14px;
+    }
+    li {
+        font-size: 13px;
+    }
+}
+
+
+hr {
+    height: 0;
+    border: none;
+    border-top: 2px solid rgb(220,220,220);
+    padding-bottom: 0.6em;
+}
+
+
+/*
+buttons
+*/
+
+a.button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.8em 1.2em;
+    line-height: 2.9em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+@media all and (max-width: 567px) {
+    a.button {
+        font-size: 14px;
+        padding: 0.7em 1em;
+    }
+}
+
+
+/*
+Tables
+*/
+
+table {
+    width: 100%;
+    border-top: 1px solid rgb(200,200,200);
+    border-left: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+    margin-bottom: 1em;
+}
+th {
+    padding: 5px 5px 5px 5px;
+    border-right: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+    background-color: rgb(240,240,240);
+    font-weight: 500;
+}
+td {
+    padding: 5px 5px 5px 5px;
+    border-right: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+*:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+

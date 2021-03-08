@@ -1,0 +1,236 @@
+
+
+/*
+banner
+*/
+
+header {
+    height: 40px;
+}
+
+header .container-inner {
+    padding: 10px 20px 2px 20px;
+}
+header a {
+    float: left;
+    font-size: 0;
+    padding: 0 63px 28px 0
+}
+header p {
+    float: right;
+    color: rgb(255,255,255);
+}
+header p a.events {
+    padding: 0;
+    font-size: 14px;
+    color: rgb(255,255,255);
+}
+
+@media all and (max-width: 767px) {
+    header {
+        display: none
+    }
+}
+
+
+
+
+/*
+main menu
+*/
+
+nav .container-full-width {
+    background: rgb(30,30,30);
+}
+nav .container-outer {
+    position: relative;
+    z-index: 100;
+}
+nav .container-inner {
+    padding: 0;
+    overflow: visible;
+}
+ul.main_menu {
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    height: 40px
+}
+ul.main_menu li {
+    float: left;
+    display: inline;
+    padding: 10px 2px 0 0;
+    line-height: 1.4em;
+}
+ul.main_menu a {
+    position: relative;
+    z-index: 4;
+    font-size: 14px;
+    padding: 11px 15px 12px 15px;
+    color: rgb(210,210,210);
+    text-decoration: none
+}
+ul.main_menu a.active,
+ul.main_menu a:hover {
+    border: none;
+    background: rgb(80,114,174);
+    color: rgb(255,255,255)
+}
+ul.main_menu a.active:after, 
+ul.main_menu a:hover:after{
+    position: absolute;
+    left: 10px;
+    bottom: -17px;
+    content: "";
+    border-style: solid;
+    border-width: 17px 12px 0 0;
+    border-color: rgb(80,114,174) transparent transparent transparent
+}
+
+@-moz-document url-prefix() {
+    ul.main_menu a {
+        padding: 11px 15px 11px 15px
+    }
+    ul.main_menu a:after {
+        -moz-transform: scale(1.0001)
+    }
+}
+
+@media all and (max-width: 768px) {
+    nav .container-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    nav .container-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+
+/*
+mobile menu
+*/
+
+.mobile-home {
+    display: none;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.mobile-home a {
+    padding: 0 53px 10px 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url("../images/bln_logo_name_white.svg");
+    background-size: 53px;
+}
+
+
+
+/*
+mobile main menu
+*/
+
+
+.slicknav_menu {
+    float: left;
+    width: 100%;
+    display: none;
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30,30,30);
+}
+.slicknav_menu .slicknav_btn {
+    float: left;
+    margin: 0;
+    padding: 12px 0 0 0;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(30,30,30);
+    text-shadow: none;
+}
+.slicknav_menu .slicknav_menutxt {
+    font-size: 0;
+}
+.slicknav_menu .slicknav_icon {
+    position: absolute;
+    top: 12px;
+    left: 60px;
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color: rgb(210,210,210)
+}
+.slicknav_menu a:hover .slicknav_icon-bar {
+    background-color: rgb(255,255,255)
+}
+.slicknav_menu .slicknav_menutxt {
+    color: rgb(210,210,210)
+}
+.slicknav_menu a:hover .slicknav_menutxt {
+    color: rgb(255,255,255)
+}
+ul.slicknav_nav {
+    margin: 35px -10px 10px -10px;
+}
+ul.slicknav_nav li {
+    margin: 4px 0 0 0;
+}
+ul.slicknav_nav a {
+    font-size: 14px;
+    margin: 0;
+    padding: 7px 10px;
+    color: rgb(210,210,210);
+    display: normal
+}
+ul.slicknav_nav a:hover {
+    border-radius: 0;
+    text-decoration: none;
+    background-color: rgb(90,90,90);
+    color: rgb(255,255,255)
+}
+
+@media all and (max-width: 767px) {
+    .main_menu {
+        display: none
+    }
+    .mobile-home {
+        display: block;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}
+@media all and (max-width: 360px) {
+    .mobile-home {
+        left: 10px;
+    }
+}
+
+
+/*
+follow us
+*/
+
+nav ul.social {
+    float: right;
+    margin-top: 10px;
+    margin-left: -400px;
+}
+nav ul.social li {
+    margin: 0 0 0 1em;
+}
+nav ul.social a {
+    padding-top: 20px;
+    padding-right: 20px;
+    background-size: 20px;
+}
+nav ul.social li:hover {
+    background-color: rgb(255,255,255)
+}
+

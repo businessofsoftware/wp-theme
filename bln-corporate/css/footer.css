@@ -1,0 +1,129 @@
+
+/*
+footer
+*/
+
+footer {
+    margin-top: 40px;
+}
+footer .container-inner-full-width {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+/*
+banner
+*/
+
+footer .banner .container-full-width {
+    background-color: rgb(30,30,30);
+}
+footer .banner .container-inner-full-width {
+    height: 45px;
+}
+footer .banner a.bln-name-white {
+    float: left;
+    font-size: 0;
+    margin-top: 11px;
+    padding: 0 70px 32px 0;
+    background-size: 70px;
+}
+footer .banner p.tagline {
+    width: 200px;
+    font-size: 14px;
+    margin: 18px 0 0 82px;
+    color: rgb(200,200,200);
+}
+footer .banner p.events {
+    float: right;
+    width: 25%;
+    margin: -20px 0 0 0px;
+    font-size: 13px;
+    color: rgb(200,200,200);
+}
+
+
+/*
+links
+*/
+
+footer .links .container-full-width {
+    padding-top: 35px;
+    background-color: rgb(45,49,53);
+}
+footer .links .container-outer {
+    padding-bottom: 70px
+}
+footer h4 {
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+footer li {
+    font-size: 13px;
+}
+footer a {
+    font-weight: 300;
+    color: rgb(200,200,200);
+}
+footer a:hover {
+    color: rgb(255,255,255);
+}
+footer .column {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+footer .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer .links ul li {
+    margin: 0 0 18px 0;
+    padding: 0;
+}
+
+
+/*
+social
+*/
+
+footer .links ul.social li {
+    margin: 0 10px 0 0;
+}
+footer .links ul.social li:hover {
+    background-color: rgb(255,255,255)
+}
+footer .links ul.social li a {
+    padding-top: 20px;
+    padding-right: 20px;
+    background-size: 20px;
+}
+
+
+@media all and (max-width: 768px) {
+    footer {
+        margin-top: 0;
+    }
+    footer .links .container-inner-full-width,
+    footer .banner .container-inner-full-width {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    footer .links .container-inner-full-width,
+    footer .banner .container-inner-full-width {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer .column {
+        width: 50%;
+    }
+    footer .banner p.events {
+        display: none;
+    }
+}
+

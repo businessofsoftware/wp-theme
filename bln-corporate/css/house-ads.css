@@ -1,0 +1,196 @@
+
+
+/*
+house advert
+*/
+
+.container-full-width.house-advert {
+    background-color: rgb(255,255,255);
+}
+
+
+
+/*
+follow us - good
+*/
+
+#follow-us .container-outer {
+    background-color: rgb(255,255,255);
+}
+#follow-us .container-outer.grey {
+    background-color: rgb(240,240,240);
+}
+#follow-us .container-inner .container {
+    padding-bottom: 35px;
+}
+#follow-us ul {
+    float: right;
+}
+@media all and (max-width: 360px) {
+    #follow-us {
+        display: none;
+    }
+}
+
+
+
+/*
+join us - good
+*/
+
+#join-us {
+    text-align: right;
+}
+#join-us .button-message h4 {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 767px) {
+    #join-us .button-message h4 {
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    #join-us .container-full-width {
+        min-height: 57px;
+    }
+     #join-us .button-message h4 {
+        display: none;
+    }
+}
+
+
+
+/*
+upcoming events
+*/
+#upcoming ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#upcoming li {
+    margin-bottom: 1.5em;
+}
+#upcoming p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*
+featured event
+*/
+
+.featured-event .container-outer {
+    background-color: rgb(240,240,240);
+}
+.featured-event .container-inner {
+    padding-bottom: 25px;
+}
+.featured-event .button-message a.button {
+    margin-left: 260px;
+}
+.featured-event .button-message p.message {
+    margin: -31px 0 0 420px;
+}
+.featured-event .button-message.learn-more p.message {
+    margin: -31px 0 0 410px;
+}
+
+
+.featured-event .button-message h4 {
+    margin-left: 260px;
+}
+
+@media all and (max-width: 767px) {
+    .featured-event .button-message p.message {
+        margin-left: 260px !important;
+    }
+}
+@media all and (max-width: 567px) {
+    .featured-event .button-message {
+        text-align: right;
+    }
+    .featured-event .button-message a.button {
+        margin-left: 0;
+    }
+    .featured-event .button-message p.message {
+       margin-left: 0 !important;
+    }
+    .featured-event .button-message h4 {
+        margin-left: 0;
+    }
+}
+
+
+
+
+/*
+boiler plate
+*/
+
+.boilerplate {
+    color: rgb(80,80,80);
+    background-color: rgba(81,115,172,0.2);
+    border-radius: 0px;
+    padding: 20px;
+    margin-bottom: 1em;
+}
+
+.boilerplate input[type=text],
+.boilerplate input[type=email],
+.boilerplate textarea {
+    border: none !important;
+}
+
+.boilerplate h2 {
+   font-size: 28px;
+}
+.boilerplate h3 {
+   font-size: 16px;
+   color: rgb(70,70,70);
+}
+.boilerplate a.button {
+    font-size: 14px;
+    padding: 0.6em 1.4em;
+}
+
+@media all and (max-width: 567px) {
+    .boilerplate {
+        padding: 15px;
+    }
+    .boilerplate h2{
+        font-size: 20px;
+    }
+    .boilerplate h3 {
+        font-size: 14px;
+    }
+    .boilerplate a.button {
+        font-size: 13px;
+    }
+}
+
+
+/*
+overide for iContact form
+*/
+
+.boilerplate #SignUp {
+    background: none;
+    padding: 0;
+}
+
+/*
+overide for iContact form
+*/
+
+.boilerplate #mc-embedded-subscribe-form {
+    background: none;
+    padding: 0;
+}
+
+
+

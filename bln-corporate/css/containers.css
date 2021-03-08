@@ -1,0 +1,204 @@
+
+
+/*
+containers
+*/
+.container-outer-full-width {
+    height: auto;
+}
+.container-outer {
+    max-width: 768px;
+    height: auto;
+    margin: 0 auto;
+}
+.container-inner {
+    padding: 40px;
+}
+.container-inner-full-width {
+    padding: 40px 0;
+}
+.container-full-width {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+.container {
+    float: none;
+    width: auto;
+    height: auto;
+}
+.container-left {
+    float: auto;
+    width: auto;
+    height: auto;
+}
+.container-right {
+    float: right;
+    width: 256px;
+    height: auto;
+    min-height: 256px;
+}
+.container-right .container-inner {
+    padding: 20px;
+}
+.container-left-fixed {
+    float: left;
+    width: 256px;
+    height: auto;
+}
+.container-right-flex {
+    width: auto;
+    height: auto;
+    margin-left: 256px;
+}
+
+
+
+
+@media all and (max-width: 768px) {
+    .container-inner,
+    .container-inner-full-width {
+       padding: 40px 40px;
+    }
+}
+@media all and (max-width: 640px) {
+    .container-inner,
+    .container-inner-full-width {
+       padding: 20px 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    .container-inner,
+    .container-inner-full-width {
+       padding: 20px 10px;
+    }
+}
+
+
+/*
+title block - good
+*/
+
+.title-block .container-outer {
+    background-color: rgb(255,255,255);
+}
+.title-block .container-left .container-inner {
+    min-height: 100px;
+}
+.title-block .container-left h4 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.title-block .container-right .container-inner{
+    min-height: 222px;
+}
+.title-block a {
+    color: rgb(255,255,255);
+}
+@media all and (max-width: 767px) {
+    #events .title-block .container-left h1 {
+        font-size: 32px;
+    }
+}
+@media all and (max-width: 640px) {
+    .title-block .container-left h4 {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 567px) {
+    .title-block .container-right {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/*
+title block - deprecated
+*/
+
+.page-title .container-left .container-inner {
+    background-color: rgb(255,255,255);
+    min-height: 180px;
+}
+.page-title .container-right .container-inner {
+    min-height: 220px;
+}    
+
+@media all and (max-width: 640px) {
+    .page-title .container-right {
+        width: 230px;
+    }
+    .page-title .container-right .container-inner {
+        min-height: 180px;
+    }    
+    .page-title .container-right h3 {
+        font-size: 16px;
+    }
+    .page-title .container-right p {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 567px) {
+    .page-title .container-right {
+        display: none;
+    }
+}
+
+
+
+/*
+speaker/talk/blog excerpts
+*/
+
+.excerpt .container-right {
+    margin-left: 40px;
+}
+.excerpt .subtitle {
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+.excerpt .dateline {
+    margin-bottom: 1.25em;
+}
+.excerpt .more {
+    line-height: 1em;
+    margin-top: 30px;
+}
+
+@media all and (max-width: 640px) {
+    .excerpt .container-right {
+        width: 200px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .excerpt .subtitle {
+        margin-bottom: 20px;
+    }
+    .excerpt .more {
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    .excerpt .container-left {
+        overflow: visible;
+    }
+    .excerpt .container-right {
+        width: 160px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width: 320px) {
+    .excerpt .container-right {
+        width: 140px;
+    }
+}
+
+
+

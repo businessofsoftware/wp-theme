@@ -1,0 +1,88 @@
+
+/*
+social buttons - good
+*/
+
+ul.social {
+    margin: 0;
+    list-style-type: none
+}
+ul.social li {
+    display: inline;
+    float: left;
+    line-height: 1em;
+    margin: 0 1em 0 0;
+    padding: 0
+}
+ul.social li:last-of-type {
+    margin-right: 0
+}
+ul.social a {
+    display: block;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: top left
+}
+ul.social a.linkedin {
+    background-image: url("../images/linkedin.svg")
+}
+ul.social a.facebook {
+    background-image: url("../images/facebook.svg")
+}
+ul.social a.twitter {
+    background-image: url("../images/twitter.svg")
+}
+ul.social li:hover {
+    border-radius: 5px;
+    background-color: rgb(160,160,160)
+}
+
+@media all and (max-width: 360px) {
+    ul.social a {
+        padding-top: 30px;
+        padding-right: 30px;
+        background-size: 30px;
+    } 
+}
+
+
+
+/*
+talk/speaker/blog sharing - good
+*/
+
+.sharing {
+    margin-top: 2em;
+    overflow: hidden;
+}
+.sharing h4 {
+    margin: 0.4em 1em 0 0;
+}
+.sharing ul.social a {
+    padding-top: 2em;
+    padding-right: 2em;
+    background-size: 2em;
+}
+.sharing ul.social li:hover {
+    border-radius: 5px;
+    background-color: rgb(180,180,180)
+}
+
+@media all and (max-width: 640px) {
+    .sharing  {
+       margin-top: 1.25em;
+    }
+}
+@media all and (max-width: 360px) {
+    .sharing {
+       margin-top: 1.25em;
+    }
+}
+
+
+
+
+
+
