@@ -18,8 +18,8 @@
             <div class="container-inner-full-width overflow">
                 <div class="container-full-width logo button-message" style="background-image:url('https://businessofsoftware.org/wp-content/themes/bln-corporate/images/2021/bos-2021.png'); background-size: 180px auto;">
                     
-                    <a class="button" href="/join">Sign up today</a>
-                    <h4 class="dark">Get invited to BLN events</h4>
+                    <a class="button" href="https://businessofsoftware.org/conferences/spring/#register">Register</a>
+                    <h4 class="dark">BoS Conf Online.Spring: 26 & 27 April 2021</h4>
                 </div>
             </div>
         </div>
