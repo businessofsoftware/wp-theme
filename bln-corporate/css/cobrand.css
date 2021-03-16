@@ -323,7 +323,7 @@ bos conference cobrand
 }
 
 .bos .logo {
-    background-image: url("../event-images/bos_logo_name_color.svg");
+    background-image: url("../event-images/bos_logo_name_color_plain.svg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 230px auto;
