@@ -585,7 +585,8 @@ blog/page/talk/speaker content
 .content-main li,
 .content-main pre,
 .content-main address {
-   line-height: 1.5em;
+   line-height: 1.7em;
+   font-size: 1.2em;
 }
 .content-main video {
   width: 100%    !important;
