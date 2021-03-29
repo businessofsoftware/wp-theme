@@ -1,0 +1,245 @@
+/*
+ Theme Name:   BLN Conference
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  BLN conference theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     bln-corporate
+ Version:      1.0.0
+ Text Domain:  bln-corporate-child
+*/
+
+@import url("../bln-corporate/style.css");
+
+
+
+/*
+programme/session
+*/
+
+.programme .container-inner {
+	padding-bottom: 0;
+}
+.programme .container-session {
+	padding-bottom: 40px;
+}
+.container-session .container-left-fixed {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.container-session .container-right-flex {
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+}
+.programme .image {
+	float: left;
+}
+.programme .image .thumbnail {
+	width: 90px;
+	height: 90px;
+}
+.programme .image .graphic {
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+}
+.programme .start {
+	float: left;
+	text-transform: uppercase;
+}
+.programme .speakers {
+	margin-top: 1em;
+}
+.programme .speakers h4 {
+	margin-bottom: 0.5em;
+}
+.programme .speakers ul {
+	list-style: none;
+	margin: 0 0 0em 0;
+}
+.programme .speakers ul li {
+	margin: 0;
+	line-height: 1.5em;
+}
+
+@media all and (max-width: 567px) {
+	.container-session .container-left-fixed {
+	    float: none;
+	    width: 100%;
+	}
+	.container-session .container-right-flex {
+		margin-top: 1em;
+	    margin-left: 0;
+	}
+	.programme h1 span.title {
+		display: none;
+	}
+	.programme h1 span.date {
+		padding-left: 0;
+	}
+}
+
+
+
+/*
+session
+*/
+
+.session .speakers ul {
+	list-style: none;
+	margin: 0 0 1em 0;
+}
+.session .speakers ul li {
+	margin: 0;
+}
+
+
+
+/*
+workshop
+*/
+
+.workshop {
+	padding-bottom: 40px;
+}
+.workshop .speakers:first-of-type {
+	margin-top: 0;
+}
+.workshop .speakers ul {
+	margin-bottom: 1em;
+}
+.workshop .register {
+	padding-top: 1.5em;
+}
+	
+
+
+/*
+home updates
+*/
+
+#home-updates .container-left h4 {
+   font-size: 14px;
+}
+#home-updates .container-left h1 {
+    margin-top: 37px;
+}
+
+@media all and (max-width: 767px) {
+    #home-updates h1 {
+    	/*margin-top: 35px;*/
+    }
+}
+@media all and (max-width: 640px) {
+    #home-updates .container-left h1 {
+         /*margin-top: 80px;*/
+    }
+    #home-updates .container-right {
+       /*display: none;*/
+    }
+}
+@media all and (max-width: 567px) {
+	#home-updates .container-left h1 {
+         min-height: 70px;
+    }
+    #home-updates .container-left h1 {
+         margin-top: 40px;
+    }
+}
+@media all and (max-width: 360px) {
+    #home-updates .container-left h1 {
+         /*font-size: 32px;*/
+    }
+}
+
+
+
+/*
+Home speakers
+*/
+
+.more-speakers {
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+
+
+/*
+sponsors
+*/
+
+#sponsors .level {
+	margin-top: 20px;
+}
+#sponsors h4 {
+	margin: 0;
+}
+#sponsors .gold .sponsor {
+	float: left;
+	width: 100%;
+	min-width: 160px;
+	max-width: 212px;
+	padding: 10px 10px 0 0;
+}
+#sponsors .silver .sponsor,
+#sponsors .sponsor {
+	float: left;
+	width: 30%;
+	max-width: 127px;
+	padding: 10px 10px 0 0;
+}
+
+
+
+
+/*
+company
+*/
+.company {
+	margin-bottom: 40px;
+}
+.company:last-of-type {
+	margin-bottom: 0;
+}
+.company .container-right {
+	width: 33%;
+	max-width: 212px;
+	margin-left: 40px;
+}
+.company p.more {
+	margin-top: 1em;
+}
+
+@media all and (max-width: 567px) {
+	.company  .container-right {
+		width: 50%;
+		margin-left: 10px;
+	}
+}
+
+
+
+/*
+company profile
+*/
+
+#speaker .company-logo .container-right {
+	width: 33%;
+	max-width: 212px;
+}
+#speaker p.company-more {
+	margin-top: 1em;
+}
+
+@media all and (max-width: 567px) {
+	#speaker .company-logo .container-right {
+		width: 50%;
+		margin-left: 10px;
+	}
+}
+
