@@ -13,9 +13,7 @@
 		<h1 class="bk-0 beak beak-0"><?php the_title(); ?> </h1>
 
 		<div class="container-inner bk-white">
-			<h4 class="dateline dark"><?php the_time('F j, Y'); ?></h4>
-			<h4 class="dateline dark">By <?php the_author('F j, Y'); ?></h4>
-			<h4 class="subtitle dark"><a class="dark" href="#comments"><?php echo approved_comments($post->ID); ?></a></h4>
+			<h4 class="dateline dark"><?php the_time('F j, Y'); ?> by <?php the_author('F j, Y'); ?></h4>
 			
 			<div class="content-main">
 				<?php the_content(false); ?>
