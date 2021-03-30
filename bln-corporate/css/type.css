@@ -24,6 +24,11 @@ h1.heading-2021 {
     font-weight: bold !important;
 }
 
+h1.heading-2021 a.blog-title{
+    color: rgb(238,94,48) !important;
+    font-weight: bold !important;
+}
+
 h1.beak {
     position: relative;
     font-size: 24px;

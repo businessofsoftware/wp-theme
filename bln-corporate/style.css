@@ -604,3 +604,7 @@ blog/page/talk/speaker content
     float: right;
     margin: 0 0 1em 1em;
 }
+
+#news .title-block {
+    display: none;
+}
