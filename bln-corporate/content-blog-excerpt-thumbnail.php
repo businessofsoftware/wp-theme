@@ -17,8 +17,7 @@
 		</div>
 
 		<div class="container-left overflow">
-			<h4 class="dateline dark"><?php the_time('F j, Y'); ?></h4>
-			<h4 class="dateline dark">By <?php the_author('F j, Y'); ?></h4>
+			<h4 class="dateline dark"><?php the_time('F j, Y'); ?> by <?php the_author('F j, Y'); ?></h4>
 
 			<div class="content-main">
 				<?php the_content(false); ?>
