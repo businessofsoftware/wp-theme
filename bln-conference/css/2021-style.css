@@ -10,6 +10,23 @@
 		box-shadow: none;
 	}
 
+	
+/* REGULAR PAGE */
+
+	.page-2021 {
+		max-width: 768px;
+		margin:0 auto;
+	}
+
+	.page-2021 h1 {
+		font-size: 3.5em;
+		margin: 0.5em 0 1em 0;
+		color: rgb(238,94,48);
+    	font-weight: bold;
+	}
+
+/* HOME PAGE */
+
 	/* CONTENT SECTIONS */
 
 		/* select all ".wp-block-group__inner-container"s that are not descendants of ".wp-block-group__inner-container" */
@@ -25,9 +42,6 @@
 	    		padding: 50px 40px;
 			}		
 		}
-
-
-/* HOME PAGE */
 
 	.home-2021 p, .home-2021 li {
 		font-size: 1.5em;
