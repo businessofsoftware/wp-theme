@@ -20,12 +20,6 @@
 <div id="event-attend">
 	<div class="container-outer page-title bk-white overflow">
 
-	    <div class="container-right bk-4 white">
-	        <div class="container-inner">
-	            <?php echo get_field('event_who_should_attend'); ?>
-	        </div>
-	    </div>
-
 	    <div class="container-left">
 	        <div class="container-inner button-message">
 	            <a class="button" href="<?php echo $url ?>"><?php echo $title; ?></a>

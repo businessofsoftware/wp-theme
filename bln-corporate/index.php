@@ -11,31 +11,7 @@
 	<div class="title-block">
 		<div class="container-outer overflow">
 			<div class="container">
-				<?php
-					$args = array(
-						'post_type'		=>'event',
-						'post_status' 	=> 'publish',
-						'meta_query' => array(
-							array(
-						        'key'		=> 'event_start',
-						        'compare'	=> '>=',
-						        'value'		=> date('Ymd')
-						    )
-					    ),
-					    'meta_key' 		=> 'event_start',
-						'orderby' 		=> 'meta_value_num',
-						'order' 		=> 'ASC'
-					);
-
-					$events = new WP_Query($args);
-					if($events->have_posts()) {
-						echo '<div class="container-right bk-4 white">';
-						echo '<div class="container-inner">';
-						get_template_part('content', 'upcoming-events');
-						echo '</div>';
-						echo '</div>';
-					}
-		        ?>
+				
 		        <div class="container-left">
 		        	<div class="container-inner">
 		            	<h1 class="dark">Blog</h1>
