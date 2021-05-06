@@ -28,9 +28,9 @@
 				<div class="container-inner-full-width overflow">
 					<div class="container-full-width logo overflow">
 						<div class="container button-message">
-							<a class="button" href="<?php echo $url; ?>"><?php echo $title; ?></a>
-							<p class="message fg-0"><?php echo $message; ?></p>
-		    				<h4 class="dark"><?php echo $date." ".$time." &ndash; ".$city; ?></h4>
+							<a class="button" href="/updates">Get Invited</a>
+							<p class="message fg-0">Join us at the next one</p>
+		    				<h4 class="dark">&nbsp;</h4>
 		    			</div>
 	    			</div>
 				</div>

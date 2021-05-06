@@ -22,9 +22,9 @@
 
 	    <div class="container-left">
 	        <div class="container-inner button-message">
-	            <a class="button" href="<?php echo $url ?>"><?php echo $title; ?></a>
-				<p class="message fg-0"><?php echo $message; ?></p>
-	    		<h4 class="dark"><?php echo $date." ".$time." &ndash; ".$city; ?></h4>
+	            <a class="button" href="/updates">Get Invited</a>
+				<p class="message fg-0">Join us at the next one</p>
+				<h4 class="dark">&nbsp;</h4>
 	    		
 	            <h1 class="dark">Speakers</h1>
 	        </div>
