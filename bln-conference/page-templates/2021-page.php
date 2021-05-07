@@ -8,7 +8,6 @@
 
 <link rel='stylesheet' id='2021-styles-css'  href='https://businessofsoftware.org/wp-content/themes/bln-conference/css/2021-style.css' type='text/css' media='all' />
 
-
 <div class="container-outer-full-width page-2021">
         
     <?php
