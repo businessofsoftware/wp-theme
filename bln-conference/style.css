@@ -243,3 +243,27 @@ company profile
 	}
 }
 
+
+
+
+/*
+2021 styles
+*/
+
+
+a.wp-block-button__link {
+	color: #fff !important;
+	background: rgb(238,94,48);
+	font-size: 1.5em;
+	box-shadow: 2px 3px #000;
+}
+
+a.wp-block-button__link:hover {
+	box-shadow: 4px 6px #000;
+}
+
+div.secondary a {
+	color: rgb(238,94,48) !important;
+	background: #fff;
+	border: solid 1px rgb(238,94,48);
+}
