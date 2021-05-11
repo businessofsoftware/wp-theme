@@ -12,7 +12,7 @@ containers
     margin: 0 auto;
 }
 .container-inner {
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 .post-container-2021 {
     padding-top: 10px;
@@ -86,7 +86,7 @@ title block - good
     background-color: rgb(255,255,255);
 }
 .title-block .container-left .container-inner {
-    min-height: 100px;
+    /*min-height: 100px;*/
 }
 .title-block .container-left h4 {
     margin-top: 20px;
