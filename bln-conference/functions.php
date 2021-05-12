@@ -422,5 +422,7 @@ function get_supporter_list($level) {
     return $list;
 }
 
+add_theme_support( 'woocommerce' );
+
 
 ?>
