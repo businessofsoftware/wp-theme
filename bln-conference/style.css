@@ -312,3 +312,37 @@ figure.talk-2021-right {
 	width: 48%;
 	float: right;
 }
+
+
+/*
+woo commerce styles 
+*/
+
+.woocommerce {
+	margin-top: 40px;
+}
+
+.woocommerce .product-thumbnail {
+	display: none;
+}
+
+.woocommerce a.checkout-button {
+	color: #fff !important;
+    background-color: rgb(238,94,48) !important;
+    font-size: 1.5em;
+    box-shadow: 2px 3px #000;
+    border: none;
+    border-radius: 1.55em;
+    cursor: pointer;
+    display: inline-block;
+    padding: .667em 1.333em;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+}
+
+.woocommerce div.cart_totals {
+	float: left !important;
+	margin-top: 20px;
+}
