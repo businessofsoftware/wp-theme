@@ -322,7 +322,7 @@ woo commerce styles
 	margin-top: 40px;
 }
 
-.woocommerce .product-thumbnail, .woocommerce div.payment_method_bacs, .woocommerce .stripe-icon {
+.woocommerce .product-thumbnail, .woocommerce div.payment_method_bacs, .woocommerce .stripe-icon, .woocommerce-result-count, .woocommerce-ordering, .woocommerce-LoopProduct-link img {
 	display: none !important;
 }
 
@@ -361,5 +361,21 @@ woo commerce styles
 	padding: 0 !important;
 }
 
+.products {
+	list-style: none;
+	margin-left: 0;
+}
 
+.woocommerce-loop-product__title {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
 
+.products span.price {
+	display: block;
+	margin: 0 0 10px 0;
+}
+
+.products li {
+	margin-bottom: 40px;
+}
