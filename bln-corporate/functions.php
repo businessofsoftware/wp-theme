@@ -802,7 +802,7 @@ function enqueue_styles_scripts() {
     $template_dir = get_template_directory_uri();
 
     wp_deregister_script('jquery');
-    wp_register_script('jquery', "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js", false);
+    wp_register_script('jquery', "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js", false);
     wp_enqueue_script('jquery');
 
     wp_enqueue_script('application', $template_dir .'/js/application.js', false);
