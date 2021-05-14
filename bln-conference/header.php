@@ -24,7 +24,57 @@
 			     <div class="container-full-width">
 			        <div class="container-outer">
 			            <div class="container-inner clearfloat">
-			                <?php echo get_main_menu($event); ?>
+			                <?php 
+			                	//echo get_main_menu($event); 
+
+								$uri = explode('/', $_SERVER["REQUEST_URI"]);
+								$req = strtolower($uri[1]);
+
+								if($req == '') {
+								    $req = "home";
+								}
+								else if(is_numeric($req)) {
+								    $req = "blog";
+								}
+			                ?>
+
+			                <ul id="menu" class="main_menu">
+			                	<li>
+			                		<?php 
+										$slug = 'home';
+										$active = ($slug == $req) ? ' class="active"' : '';
+									?>
+									<a href="/home" <?=$active?> >Home</a>
+			                	</li>
+			                	<li>
+			                		<?php 
+										$slug = 'conferences';
+										$active = ($slug == $req) ? ' class="active"' : '';
+									?>
+			                		<a href="/conferences" <?=$active?> >Events</a>
+			                	</li>
+			                	<li>
+			                		<?php 
+										$slug = 'videos';
+										$active = ($slug == $req) ? ' class="active"' : '';
+									?>
+			                		<a href="/videos" <?=$active?> >Talks</a>
+			                	</li>
+			                	<li>
+			                		<?php 
+										$slug = 'blog';
+										$active = ($slug == $req) ? ' class="active"' : '';
+									?>
+			                		<a href="/blog" <?=$active?> >Blog</a>
+			                	</li>
+			                	<li>
+			                		<?php 
+										$slug = 'updates';
+										$active = ($slug == $req) ? ' class="active"' : '';
+									?>
+			                		<a href="/updates" <?=$active?> >Join</a>
+			                	</li>
+			                </ul>
 			            </div>
 			        </div>
 			    </div>
