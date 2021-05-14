@@ -18,7 +18,7 @@ programme/session
 */
 
 .programme .container-inner {
-	padding-bottom: 0;
+	padding: 0px 40px 40px 40px
 }
 .programme .container-session {
 	padding-bottom: 40px;
