@@ -1,7 +1,7 @@
 
 <section id="why-join">
 
-    <div class="title-block">
+    <div class="title-block" id="sticky-title">
         <div class="container-outer overflow">
             <div class="container">
 

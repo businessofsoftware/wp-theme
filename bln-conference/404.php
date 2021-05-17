@@ -5,7 +5,7 @@
 
 <section id="page">
 	<div class="container-outer page-title bk-4 white overflow">
-		<div class="title-block">
+		<div class="title-block" id="sticky-title">
 			<div class="container-outer overflow">
 				<div class="container">
 
