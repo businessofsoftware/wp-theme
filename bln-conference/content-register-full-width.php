@@ -1,4 +1,4 @@
-<?php
+<!--?php
 	$event = get_event();
 
 	$venue = get_field('event_venue', $event->ID);
@@ -18,9 +18,9 @@
 		$message = empty($message) ? "&nbsp;" : $message;
 		$url = get_field('event_register_url', $event->ID);
 	}
-?>
+?-->
 
-<section>
+<!--section>
 	<div id="event-register">
 
 		<div class="container-full-width bk-white shadow">
@@ -38,4 +38,4 @@
 		</div>
 
 	</div>
-</section>
+</section-->

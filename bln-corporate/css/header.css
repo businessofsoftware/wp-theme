@@ -79,13 +79,13 @@ ul.main_menu a:hover {
 }
 ul.main_menu a.active:after, 
 ul.main_menu a:hover:after{
-    position: absolute;
+    /*position: absolute;
     left: 10px;
     bottom: -17px;
     content: "";
     border-style: solid;
     border-width: 17px 12px 0 0;
-    border-color: rgb(80,114,174) transparent transparent transparent
+    border-color: rgb(80,114,174) transparent transparent transparent*/
 }
 
 @-moz-document url-prefix() {
