@@ -49,21 +49,6 @@
 	margin-bottom: 40px;
 }
 
-.product button {
-	color: #fff !important;
-    background: rgb(238,94,48);
-    font-size: 1.5em;
-    box-shadow: 2px 3px #000;
-    border: none;
-    border-radius: 1.55em;
-    cursor: pointer;
-    display: inline-block;
-    padding: .667em 1.333em;
-    text-align: center;
-    text-decoration: none;
-    overflow-wrap: break-word;
-}
-
 .product input[type=text], .product input[type=email] {
 	width: 300px;
 }
@@ -74,19 +59,6 @@
 
 .woocommerce-notices-wrapper .button {
 	padding: 0.0em 1.0em;
-}
-
-.product .form-row label {
-    display: inline-block;
-    width: 100%;
-	color: #000;
-	font-size: 14px;
-	font-weight: 400;
-}
-
-.product .ticket-field-option-label {
-	margin-left: 20px;
-	font-weight: 100 !important;
 }
 
 .woocommerce {

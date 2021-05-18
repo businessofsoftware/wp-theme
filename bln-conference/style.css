@@ -319,10 +319,10 @@ woo commerce styles
 */
 
 .woocommerce {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 
-.woocommerce .product-thumbnail, .woocommerce div.payment_method_bacs, .woocommerce .stripe-icon, .woocommerce-result-count, .woocommerce-ordering, .woocommerce-LoopProduct-link img {
+.purchased-tickets .description, ul.wc-item-meta, .woocommerce .product-thumbnail, .woocommerce div.payment_method_bacs, .woocommerce .stripe-icon, .woocommerce-result-count, .woocommerce-ordering, .woocommerce-LoopProduct-link img, #wc-stripe-payment-request-wrapper, #wc-stripe-payment-request-button-separator {
 	display: none !important;
 }
 
@@ -379,3 +379,68 @@ woo commerce styles
 .products li {
 	margin-bottom: 40px;
 }
+
+.woocommerce .coupon {
+	width: 100%;
+}
+
+.woocommerce .coupon #coupon_code {
+    width: 150px;
+    padding: 8px 10px;
+}
+
+.woocommerce .coupon button {
+	float: right !important;
+    margin: 0 0 0 10px;
+    border-radius: 0;
+    font-size: 1.1em;
+}
+
+.woocommerce .return-to-shop {
+	margin-bottom: 40px;
+}
+
+.woocommerce .woocommerce-info:last-of-type {
+	margin-bottom: 40px;
+}
+
+.woocommerce .place-order {
+	margin-bottom: 40px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.ticket-field-option-label {
+	margin-left: 20px;
+	font-weight: 100 !important;
+}
+
+.product button {
+	color: #fff !important;
+    background: rgb(238,94,48);
+    font-size: 1.5em;
+    box-shadow: 2px 3px #000;
+    border: none;
+    border-radius: 1.55em;
+    cursor: pointer;
+    display: inline-block;
+    padding: .667em 1.333em;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}
+
+.edit-ticket input.button {
+	padding: 12px 18px;
+}
+
+.edit-ticket a.button {
+	padding: 11px 15px;
+}
+
