@@ -17,6 +17,11 @@
 .product .price {
 	color: black;
     margin-top: 20px;
+    font-weight: bold;
+}
+
+.quantity-label {
+	color: #000;
 }
 
 .product del {
@@ -29,10 +34,6 @@
 
 .product h3 {
 	font-size: 24px;
-}
-
-.product h1::before {
-  content: "Purchase: ";
 }
 
 .product .woocommerce-product-details__short-description {
@@ -63,6 +64,10 @@
     overflow-wrap: break-word;
 }
 
+.product input[type=text], .product input[type=email] {
+	width: 300px;
+}
+
 .woocommerce-notices-wrapper {
 	margin-bottom: 20px;
 }
@@ -72,8 +77,16 @@
 }
 
 .product .form-row label {
-	width: 110px;
     display: inline-block;
+    width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.product .ticket-field-option-label {
+	margin-left: 20px;
+	font-weight: 100 !important;
 }
 
 .woocommerce {
@@ -81,6 +94,16 @@
 }
 
 </style>
+
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+
+		$( ".quantity" ).prepend( "<span class='quantity-label'>Quantity: </span>" );
+
+	});
+</script>
+
 
 <section>
 
@@ -100,3 +123,4 @@
     get_template_part('content', 'register');
 	get_footer();
 ?>
+
