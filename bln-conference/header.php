@@ -16,6 +16,10 @@
 <?php do_action('insert_ga_script'); ?>
 
 <style type="text/css">
+	#navbar {
+		z-index: 999;
+	}
+	
 	.nav-2021 .container-full-width {
 		background: #fff;
 		padding: 40px 0;
