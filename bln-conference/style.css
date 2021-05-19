@@ -318,9 +318,62 @@ figure.talk-2021-right {
 woo commerce styles 
 */
 
-.woocommerce {
-	/*margin-top: 40px;*/
+.product .onsale, .product .woocommerce-product-gallery, .product .woocommerce-tabs, .product .related, .product .product_meta {
+	display: none;
 }
+
+.product-thumbnail {
+	display: none;
+}
+
+.product .price {
+	color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.quantity-label {
+	color: #000;
+}
+
+.product del {
+	color: gray;
+}
+
+.product h1 {
+	font-size: 36px;
+}
+
+.product h3 {
+	font-size: 24px;
+}
+
+.product .woocommerce-product-details__short-description {
+	margin-bottom: 20px;
+}
+
+.product input.qty {
+	padding: 6px;
+	font-weight: bold;
+}
+
+.product .wc-box-office-ticket-fields {
+	margin-bottom: 40px;
+}
+
+.product input[type=text], .product input[type=email] {
+	width: 300px;
+}
+
+.woocommerce-notices-wrapper {
+	margin-bottom: 20px;
+}
+
+.woocommerce-notices-wrapper .button {
+	padding: 0.0em 1.0em;
+}
+
+
 
 .purchased-tickets .description, ul.wc-item-meta, .woocommerce .product-thumbnail, .woocommerce div.payment_method_bacs, .woocommerce .stripe-icon, .woocommerce-result-count, .woocommerce-ordering, .woocommerce-LoopProduct-link img, #wc-stripe-payment-request-wrapper, #wc-stripe-payment-request-button-separator {
 	display: none !important;
