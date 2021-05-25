@@ -160,7 +160,24 @@
 		<div class="bk-0">
 
 			<nav id="navbar" class="nav-2021">
-			     <div class="container-full-width bk-white shadow" id="navbar-child">
+
+				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
+					📣 New Masterclasses: 
+
+					<a href="https://businessofsoftware.org/events/#masterclasses" style="font-weight: bold; text-decoration: underline; color: #fff;">
+						Demand-Side Sales
+					</a>
+
+					and
+
+					<a href="https://businessofsoftware.org/events/#masterclasses" style="font-weight: bold; text-decoration: underline; color: #fff;">
+						Customer Interviews
+					</a> 
+
+					with Bob Moesta.
+				</div>
+
+				<div class="container-full-width bk-white shadow" id="navbar-child">
 			        <div class="container-outer">
 			            <div class="container-inner clearfloat">
 
@@ -211,7 +228,6 @@
 									?>
 			                		<a href="/updates" <?=$active?> >Join</a>
 			                	</li>
-								
 			                </ul>
 			            </div>
 			        </div>
