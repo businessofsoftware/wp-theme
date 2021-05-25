@@ -1,6 +1,5 @@
 <?php
 	get_header(); 
-    get_template_part('content', 'join');
 ?>
 
 <section id="page">
@@ -21,16 +20,15 @@
 
 		<div class="container-inner bk-white">
 			<div class="content-main">
-				<h3>View our upcoming events here:</h3>
-				<p><a href="https://businessofsoftware.org/">BoS Conference USA</a></p>
-				<p><a href="https://businessofsoftware.eu/">BoS Conference Europe</a></p>
+				<p>
+					<br><br><br><br><br><br><br><br>
+				</p>
 			</div>
 		</div>
 	</div>
 </section>
 
 <?php
-	get_template_part('content', 'event-social');
 	get_footer();
 ?>
 
