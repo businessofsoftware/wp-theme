@@ -188,7 +188,7 @@
 										$slug = 'conferences';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/conferences" <?=$active?> >Events</a>
+			                		<a href="/events" <?=$active?> >Events</a>
 			                	</li>
 			                	<li>
 			                		<?php 
@@ -211,6 +211,7 @@
 									?>
 			                		<a href="/updates" <?=$active?> >Join</a>
 			                	</li>
+								
 			                </ul>
 			            </div>
 			        </div>
