@@ -29,6 +29,10 @@
 			}		
 		}
 
+	.home-2021 a {
+		color: rgb(238,94,48);
+	}
+
 	.home-2021 p, .home-2021 li {
 		font-size: 1.5em;
         line-height: 1.5em;
@@ -41,10 +45,7 @@
 	}
 
 	.home-2021 h3 {
-		color: #fff;
-	    background: rgb(238,94,48);
-	    padding: 5px 10px;
-	    text-transform: uppercase;
+		padding: 5px 0;
 	    margin-bottom: 20px;
 	    width:fit-content;
 	}
@@ -93,6 +94,7 @@
 		    color: rgb(238,94,48);
 		    width: fit-content;
 		    margin: 0 0 40px 0;
+	    	font-size: 1.5em;
 		}
 
 		.home-2021 .hero p {
@@ -119,7 +121,6 @@
 		}
 
 		.home-2021 div.secondary a {
-			color: rgb(238,94,48);
 			background: #fff;
 			border: solid 1px rgb(238,94,48);
 		}
@@ -143,8 +144,7 @@
 		}
 
 		.home-2021 .orange h3 {
-			color: rgb(238,94,48);
-		    background: #fff;
+			
 		}
 
 
