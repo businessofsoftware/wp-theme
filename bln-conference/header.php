@@ -80,6 +80,23 @@
 		background: #fff;
 	}
 
+	.nav-2021 .nav-cart {
+		padding-left: 31px; 
+		background-image: url('https://businessofsoftware.org/wp-content/themes/bln-conference/css/cart.png'); 
+		background-repeat: no-repeat; 
+		background-size: 30px; 
+		background-position-y: 4px; 
+		padding-top: 8px;
+	}
+
+	.nav-2021 .nav-cart a {
+		border-radius: 15px; 
+		padding: 3px 8px; 
+		font-size: 13px; 
+		background: rgb(238,93,49); 
+		color: #fff;
+	}
+
 	/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 	.sticky {
 		position: fixed;
@@ -202,7 +219,7 @@
 			                <ul id="menu" class="main_menu">
 			                	<li>
 			                		<?php 
-										$slug = 'conferences';
+										$slug = 'events';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
 			                		<a href="/events" <?=$active?> >Events</a>
@@ -228,6 +245,18 @@
 									?>
 			                		<a href="/updates" <?=$active?> >Join</a>
 			                	</li>
+			                	<?php 
+        
+								    if (WC()->cart->get_cart_contents_count() > 0) { ?>
+
+										<li class="nav-cart">
+								            <a href="<?php echo wc_get_cart_url(); ?>">
+								                <?php echo WC()->cart->get_cart_contents_count(); ?>
+								            </a>
+								        </li>
+
+								    <?php }
+								?>
 			                </ul>
 			            </div>
 			        </div>
