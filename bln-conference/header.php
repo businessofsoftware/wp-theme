@@ -181,15 +181,13 @@
 				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
 					📣 New Masterclasses: 
 
-					<a href="https://businessofsoftware.org/events/#masterclasses" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Demand-Side Sales
-					</a>
+					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
+						Customer Interviews</a> (15 left)
 
 					and
 
-					<a href="https://businessofsoftware.org/events/#masterclasses" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews
-					</a> 
+					<a href="https://businessofsoftware.org/events/masterclasses/demand-side-sales-jtbd-july21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
+						Demand-Side Sales</a>  (18 left)
 
 					with Bob Moesta.
 				</div>
