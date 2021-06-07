@@ -182,7 +182,7 @@
 					📣 New Masterclasses: 
 
 					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews</a> (13 left)
+						Customer Interviews</a> (12 left)
 
 					and
 
