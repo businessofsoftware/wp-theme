@@ -172,6 +172,8 @@ speaker/talk/blog excerpts
 .excerpt .more {
     line-height: 1em;
     margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.4em;
 }
 
 @media all and (max-width: 640px) {
