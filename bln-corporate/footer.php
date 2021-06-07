@@ -20,9 +20,9 @@
                     <div class="column">
                         <ul>
                             <li><h4>Events</h4></li>
-                            <li><a href="https://businessofsoftware.org/conferences/spring/">BoS Conf Online.Spring</a></li>
-                            <li><a href="https://businessofsoftware.org/conferences/fall/">BoS Conf Online.Fall</a></li>
-                            <li><a href="https://businessofsoftware.org/online-masterclasses">Online Masterclasses</a></li>
+                            <li><a href="https://businessofsoftware.org/events/spring/">Spring Conference</a></li>
+                            <li><a href="https://businessofsoftware.org/events/fall/">Fall Conference</a></li>
+                            <li><a href="https://businessofsoftware.org/events/#masterclasses">Online Masterclasses</a></li>
                         </ul>
                     </div>
 
