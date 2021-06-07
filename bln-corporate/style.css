@@ -580,6 +580,7 @@ blog/page/talk/speaker content
 
 .content-main {
     color: rgb(90,90,90);
+    margin-bottom: 40px;
 }
 .content-main p,
 .content-main li,
