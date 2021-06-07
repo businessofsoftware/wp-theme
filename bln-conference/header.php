@@ -182,12 +182,12 @@
 					📣 New Masterclasses: 
 
 					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews</a> (15 left)
+						Customer Interviews</a> (13 left)
 
 					and
 
 					<a href="https://businessofsoftware.org/events/masterclasses/demand-side-sales-jtbd-july21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Demand-Side Sales</a>  (18 left)
+						Demand-Side Sales</a>
 
 					with Bob Moesta.
 				</div>
