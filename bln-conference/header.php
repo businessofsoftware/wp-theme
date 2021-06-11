@@ -182,7 +182,7 @@
 					🚨 Last few tickets: 
 
 					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews using JTBD</a> (6 left)
+						Customer Interviews using JTBD</a> (Only 3 left)
 
 					
 
