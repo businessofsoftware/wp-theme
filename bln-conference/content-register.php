@@ -1,4 +1,4 @@
-<?php
+<!--?php
 	$event = get_event();
 
 	$venue = get_field('event_venue', $event->ID);
@@ -33,4 +33,4 @@
 		</div>
 
 	</div>
-</section>
+</section-->
