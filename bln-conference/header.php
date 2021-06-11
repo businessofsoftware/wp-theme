@@ -179,15 +179,12 @@
 			<nav id="navbar" class="nav-2021">
 
 				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
-					📣 New Masterclasses: 
+					🚨 Last few tickets: 
 
 					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews</a> (12 left)
+						Customer Interviews</a> (6 left)
 
-					and
-
-					<a href="https://businessofsoftware.org/events/masterclasses/demand-side-sales-jtbd-july21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Demand-Side Sales</a>
+					
 
 					with Bob Moesta.
 				</div>
