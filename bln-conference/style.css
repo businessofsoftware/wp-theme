@@ -460,6 +460,14 @@ woo commerce styles
 	margin-bottom: 40px;
 }
 
+.woocommerce .cross-sells {
+	width: 100% !important;
+}
+
+.woocommerce .cross-sells h2 {
+	font-size: 2em;
+}
+
 .form-row label {
     display: inline-block;
     width: 100%;
