@@ -159,6 +159,10 @@ title block - deprecated
 speaker/talk/blog excerpts
 */
 
+.excerpt {
+    border-bottom: solid 10px rgb(238,94,48);
+}
+
 .excerpt .container-right {
     margin-left: 40px;
 }
@@ -167,7 +171,7 @@ speaker/talk/blog excerpts
     margin-bottom: 30px;
 }
 .excerpt .dateline {
-    margin-bottom: 1.25em;
+    margin-bottom: 3.00em;
 }
 .excerpt .more {
     line-height: 1em;
