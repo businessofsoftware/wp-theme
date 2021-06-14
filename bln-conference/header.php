@@ -179,12 +179,10 @@
 			<nav id="navbar" class="nav-2021">
 
 				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
-					🚨 Last few tickets: 
+					🚨 <strong>Last 2</strong> tickets: 
 
 					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews using JTBD</a> (Only 3 left)
-
-					
+						Customer Interviews using JTBD</a>
 
 					with Bob Moesta.
 				</div>
@@ -238,7 +236,7 @@
 										$slug = 'updates';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/updates" <?=$active?> >Join</a>
+			                		<a href="/updates" <?=$active?> >Subscribe</a>
 			                	</li>
 			                	<?php 
         
