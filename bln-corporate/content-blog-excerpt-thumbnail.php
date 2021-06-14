@@ -2,7 +2,7 @@
 	<h1 class="bk-0 beak beak-0 heading-2021"><a class="blog-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 	<div class="container-inner bk-white overflow">
 
-		<div class="container-right">
+		<!--div class="container-right">
 
 			<?php
 				$image_id = get_field('blog_excerpt_image', $post->ID);
@@ -14,7 +14,7 @@
 					the_post_thumbnail(array(256,256), array("class"=>"floatright"));	
 				}
 			?>
-		</div>
+		</div-->
 
 		<div class="container-left overflow">
 			<h4 class="dateline dark"><?php the_time('F j, Y'); ?> by <?php the_author('F j, Y'); ?></h4>
