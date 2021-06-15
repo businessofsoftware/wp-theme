@@ -10,7 +10,7 @@
 	$li = "http://www.linkedin.com/shareArticle?mini=true&amp;url=".$permalink."&amp;title=".$title."&amp;summary=".$summary."&amp;source=".$source;
 ?>
 
-<div class="sharing">
+<!--div class="sharing">
 	<h4 class="floatleft dark">Share this post</h4>
 
 	<ul class="social floatleft">
@@ -18,4 +18,4 @@
 	 	<li><a class="facebook" href="<?php echo $fb; ?>"></a></li>
 	 	<li><a class="linkedin" href="<?php echo $li; ?>"></a></li>
 	</ul>
-</div>
+</div-->
