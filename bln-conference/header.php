@@ -179,12 +179,12 @@
 			<nav id="navbar" class="nav-2021">
 
 				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
-					🚨 <strong>Last 2</strong> tickets: 
+					🛠️ Free webinar: 
 
-					<a href="https://businessofsoftware.org/events/masterclasses/jtbd-interviews-june21/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Customer Interviews using JTBD</a>
+					<a href="https://businessofsoftware.org/hangouts/software-ecosystem-june-2021/" style="font-weight: bold; text-decoration: underline; color: #fff;">
+						Building Software Ecosystems</a>
 
-					with Bob Moesta.
+					with ServiceRocket.
 				</div>
 
 				<div class="container-full-width bk-white shadow" id="navbar-child">
