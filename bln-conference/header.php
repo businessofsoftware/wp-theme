@@ -219,10 +219,10 @@
 			                	</li>
 			                	<li>
 			                		<?php 
-										$slug = 'videos';
+										$slug = 'talks';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/videos" <?=$active?> >Talks</a>
+			                		<a href="/talks" <?=$active?> >Talks</a>
 			                	</li>
 			                	<li>
 			                		<?php 

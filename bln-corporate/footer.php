@@ -29,7 +29,7 @@
 <div class="column">
                         <ul>
                             <li><h4>Talks</h4></li>
-                            <li><a href="https://businessofsoftware.org/videos">Videos</a></li>
+                            <li><a href="https://businessofsoftware.org/talks">Talks</a></li>
                             <li><a href="https://anchor.fm/business-of-software">Podcast</a></li>
                         </ul>
                     </div>
