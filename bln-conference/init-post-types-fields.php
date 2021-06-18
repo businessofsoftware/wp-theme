@@ -4,6 +4,7 @@
 add_action('init', 'custom_post_types');
 function custom_post_types()
 {
+    /*
     register_post_type('event', array(
         'label' => 'Event',
         'description' => 'Event',
@@ -34,10 +35,10 @@ function custom_post_types()
             )
         )
     );
+    */
 
 
-
-
+    /*
     register_post_type('programme', array(
         'label' => 'Programmes',
         'description' => 'Programmes',
@@ -68,9 +69,9 @@ function custom_post_types()
             )
         )
     );
+    */
 
-
-
+    /*
     register_post_type('session', array(
         'label' => 'Sessions',
         'description' => 'Sessions',
@@ -101,7 +102,7 @@ function custom_post_types()
             )
         )
     );
-
+    */
 
 
     register_post_type('speaker', array(
@@ -170,7 +171,7 @@ function custom_post_types()
     );
 
 
-
+    /*
     register_post_type('venue', array(
         'label' => 'Venues',
         'description' => 'Event venues',
@@ -201,7 +202,7 @@ function custom_post_types()
             )
         )
     );
-
+    */
 
     register_post_type('company', array(
         'label' => 'Companies',
