@@ -178,7 +178,7 @@
 
 			<nav id="navbar" class="nav-2021">
 
-				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff;">
+				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff; display: none;">
 					🛠️ Free webinar: 
 
 					<a href="https://businessofsoftware.org/hangouts/software-ecosystem-june-2021/" style="font-weight: bold; text-decoration: underline; color: #fff;">
