@@ -1044,9 +1044,7 @@ function boilerplate_1_shortcode($atts, $content = null) {
     if(($i == 1) || ($i == 2) || ($i == 3)) {
         $bp = get_option('boilerplate_'.$i);
         if($bp != "") {
-            $html = '<div class="boilerplate">';
             $html.= do_shortcode($bp);
-            $html.= '</div>';
         }
     }
     return wpautop($html);
