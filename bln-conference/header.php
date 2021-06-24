@@ -178,14 +178,9 @@
 
 			<nav id="navbar" class="nav-2021">
 
-				<div class="container-full-width bk-white" id="notif-bar" style="padding: 15px 0; text-align: center; background: #000; color: #fff; display: none;">
-					🛠️ Free webinar: 
-
-					<a href="https://businessofsoftware.org/hangouts/software-ecosystem-june-2021/" style="font-weight: bold; text-decoration: underline; color: #fff;">
-						Building Software Ecosystems</a>
-
-					with ServiceRocket.
-				</div>
+				<?php
+					echo do_shortcode( '[boilerplate 3]' );
+				?>
 
 				<div class="container-full-width bk-white shadow" id="navbar-child">
 			        <div class="container-outer">
