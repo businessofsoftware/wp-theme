@@ -1041,7 +1041,7 @@ add_shortcode('boilerplate', 'boilerplate_1_shortcode');
 function boilerplate_1_shortcode($atts, $content = null) {
     $html = "";
     $i = isset($atts[0]) ? $atts[0] : 1;
-    if(($i == 1) || ($i == 2) || ($i == 3)) {
+    if(($i == 1) || ($i == 2) || ($i == 3) || ($i == 4)) {
         $bp = get_option('boilerplate_'.$i);
         if($bp != "") {
             $html.= do_shortcode($bp);
