@@ -14,6 +14,7 @@
                             <li><a href="https://businessofsoftware.org/team">Meet the Team</a></li>
                             <li><a href="https://businessofsoftware.org/privacy-policy/">Privacy Policy</a></li>
                             <li><a href="https://businessofsoftware.org/terms-of-service/">Terms of Service</a></li>
+                            <li><a href="https://businessofsoftware.org/2017/07/business-software-conference-code-conduct">Code of Conduct</a></li>
                         </ul>
                     </div>
 
@@ -28,18 +29,18 @@
 
 <div class="column">
                         <ul>
-                            <li><h4>Talks</h4></li>
+                            <li><h4>Learning</h4></li>
                             <li><a href="https://businessofsoftware.org/talks">Talks</a></li>
                             <li><a href="https://anchor.fm/business-of-software">Podcast</a></li>
+                            <li><a href="https://businessofsoftware.org/blog">Blog</a></li>
                         </ul>
                     </div>
 
                     <div class="column">
                          <ul>
-                            <li><h4>Useful Links</h4></li>
-                            <li><a href="https://businessofsoftware.org/blog">Blog</a></li>
-                            <li><a href="https://businessofsoftware.org/updates">Newsletter</a></li>
-                            <li><a href="https://businessofsoftware.org/2017/07/business-software-conference-code-conduct">Code of Conduct</a></li>
+                            <li><h4>Participation</h4></li>
+                            <li><a href="https://businessofsoftware.org/updates">Subscribe</a></li>
+                            <li><a href="https://businessofsoftware.org/support-bos">Support BoS</a></li>
                         </ul>
                     </div>
 
