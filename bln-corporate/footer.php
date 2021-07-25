@@ -31,9 +31,10 @@
                         <ul>
                             <li><h4>Learning</h4></li>
                             <li><a href="https://businessofsoftware.org/talks">Talks</a></li>
+                            <li><a href="https://businessofsoftware.org/talks/speakers">Speakers</a></li>
                             <li><a href="https://anchor.fm/business-of-software">Podcast</a></li>
                             <li><a href="https://businessofsoftware.org/blog">Blog</a></li>
-                             <li><a href="https://businessofsoftware.org/software-pricing-guide/">Software Pricing Guide</a></li>
+                            <li><a href="https://businessofsoftware.org/software-pricing-guide/">Software Pricing Guide</a></li>
                         </ul>
                     </div>
 
