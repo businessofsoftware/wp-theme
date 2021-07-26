@@ -102,7 +102,6 @@ function custom_post_types()
             )
         )
     );
-    */
 
 
     register_post_type('speaker', array(
@@ -136,7 +135,7 @@ function custom_post_types()
             )
         )
     );
-
+    
 
 
     register_post_type('testimonial', array(
@@ -171,7 +170,6 @@ function custom_post_types()
     );
 
 
-    /*
     register_post_type('venue', array(
         'label' => 'Venues',
         'description' => 'Event venues',
