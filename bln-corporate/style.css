@@ -583,11 +583,16 @@ blog/page/talk/speaker content
     margin-bottom: 40px;
 }
 .content-main p,
-.content-main li,
 .content-main pre,
+.content-main li,
 .content-main address {
    line-height: 1.7em;
    font-size: 1.2em;
+}
+.content-main li {
+    margin-bottom: 15px;
+    margin-left: 25px;
+    font-size: 16px;
 }
 .content-main video {
   width: 100%    !important;
