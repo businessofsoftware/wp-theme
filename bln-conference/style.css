@@ -504,3 +504,265 @@ woo commerce styles
 	padding: 11px 15px;
 }
 
+
+/* 
+overlay
+*/
+
+.overlay {
+    background-color:rgba(0, 0, 0, 0.85);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
+.overlay-vertical {
+  margin: 0;
+  position: absolute;
+	width: 100%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.overlay .box {
+	width: 650px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 40px;
+	border-radius: 5px;
+}
+
+.overlay p {
+	text-align:left; 
+	color: #000;
+}
+
+.overlay p.heading {
+	font-size: 2.5em;
+  margin: 0;
+	font-weight: normal;
+}
+
+.overlay p.sub {
+
+}
+
+.overlay .overlay-logo {
+	width: 150px;
+}
+
+
+/*
+custom style tweaks 
+*/
+
+.conf-now p, .conf-now a, .conf-now li, .conf-now strong {
+	color: green !important;  
+}
+.conf-done {
+	margin-bottom: 10px !important;
+} 
+
+.conf-done p, .conf-done li, .conf-done strong {
+	font-size: 12px !important;
+	color: gray !important;
+	text-decoration: line-through !important;
+	font-weight: 100 !important;
+}
+
+.conf-done p a, .conf-done li a {
+	color: gray !important;
+  font-weight: 100 !important;
+}
+
+.italicbold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#post h2 {
+	font-size: 2.0em;
+   margin: 1.5em 0 0.5em 0;
+}
+
+.wide-image {
+	margin: 0 0 20px 0;
+}
+
+.wide-image img {
+	width: 100%;
+}
+
+.conf-video, .wp-block-embed {
+	margin: 25px 0;
+}
+
+.wp-block-embed iframe {
+	width: 100%;
+}
+
+.conf-schedule-white {
+	padding:10px 15px;
+}
+
+.conf-schedule-gray {
+	background:#e8e8e8;
+	padding:10px 15px;
+}
+
+.conf-schedule-last {
+	border-bottom: solid 1px #e8e8e8;
+	padding-bottom: 30px;
+}
+
+.speaker-heading {
+	margin-bottom: 10px;
+}
+
+.schedule-heading {
+	margin-bottom: 0;
+}
+
+
+.speaker-cta {
+	border-bottom: solid 3px;
+	padding-bottom: 4px;
+	text-decoration: none;
+}
+
+.speaker-cta:hover {
+	text-decoration: none;
+}
+
+.speaker-cta-main a {
+	color: #fff !important;
+	background: rgb(238,94,48);
+	border: solid 2px rgb(238,94,48);
+}
+
+.speaker-cta-secondary a {
+	color: rgb(238,94,48) !important;
+	background: #fff;
+	border: solid 2px rgb(238,94,48);
+}
+
+.conf-gallery {
+	
+}
+
+.conf-gallery figcaption {
+	text-align: left !important;
+	font-size: 16px !important;
+  text-transform: uppercase  !important;
+}
+
+
+.conf-gallery figcaption span {
+	text-transform: none !important;
+	font-weight: lighter !important;
+	font-style: italic;
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 14px;
+	line-height: 1.4em !important;
+}
+
+.conf-list {
+	margin: 0 0 0 50px;
+	color: #000;
+}
+
+.conf-list li {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+}
+
+.conf-table {
+	margin: 25px 0;
+}
+
+.conf-table td {
+	padding: 10px;
+	border-color: inherit !important;
+}
+
+.button-2021 a {
+		color: #fff !important;
+    background: rgb(238,94,48);
+    font-size: 1.5em;
+    box-shadow: 2px 3px #000;
+}
+
+.post-toc {
+	border: solid 1px;
+  padding: 20px 30px 5px 20px;
+  margin: 0 0 20px 30px;
+	float: right;
+  border-radius: 10px;
+	width: fit-content;
+}
+
+.post-toc-full {
+	float: none;
+  border-radius: 0;
+	width: auto;
+	margin: 0;
+}
+
+.post-toc li {
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.size-full {
+	margin:50px 0 !important;
+}
+
+ul.tags {
+	margin: 0;
+	list-style: none;
+}
+
+ul.tags li {
+	width: fit-content;
+    float: left;
+    border: solid 1px rgb(238,94,48);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+ul.tags-list {
+	margin: 0;
+	list-style: none;
+}
+
+ul.tags-list li {
+	width: 45%;
+    float: left;
+    border: solid 1px rgb(238,94,48);
+    padding: 5px 10px;
+    border-radius: 0;
+    margin: 0 10px 10px 0;
+}
+
+.hero-supporters {
+	background-image: url(https://bos.thebln.com/wp-content/uploads/sites/11/2021/06/shah-peldi.jpg) !important;
+}
+
+code {
+	color: #000;
+}
+pre.bos-manual code {
+	color: #fff;
+    background: #000;
+    padding: 15px 20px;
+    font-size: 12px;
+}
+
+
