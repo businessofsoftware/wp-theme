@@ -18,7 +18,7 @@
     <div class="<?php echo $cobrand; ?>">
         <div class="bk-0">
 
-            <header>
+            <!--header>
                 <div class="container-full-width">
                     <div class="container-inner clearfloat">
                         <a class="bln-name-white" href="https://businessofsoftware.org">BLN</a>
@@ -69,21 +69,13 @@
                                 </div>
 
                                 <ul id="menu" class="main_menu">
-                                    <li><a <?php if($active == "home") echo 'class="active"'; ?> href="/">Home</a></li>
-                                    <li><a <?php if($active == "about") echo 'class="active"'; ?> href="/about/">About</a></li>
-                                    <li><a <?php if($active == "events") echo 'class="active"'; ?> href="/events/">Events</a></li>
-                                    <li><a <?php if($active == "talks") echo 'class="active"'; ?> href="/talks/">Talks</a></li>
-                                    <li><a <?php if($active == "speakers") echo 'class="active"'; ?> href="/speakers/">Speakers</a></li>
-                                    <li><a <?php if($active == "blog") echo 'class="active"'; ?> href="/blog/">Blog</a></li>
-                                </ul>
-
-                                <ul class="social">
-                                    <li><a class="linkedin" href="http://www.linkedin.com/groups/BLN-86169"></a></li>
-                                    <li><a class="facebook" href="https://www.facebook.com/TheBLN"></a></li>
-                                    <li><a class="twitter" href="https://twitter.com/The_BLN"></a></li>
+                                    <li><a <?php if($active == "home") echo 'class="active"'; ?> href="https://businessofsoftware.org/">Home</a></li>
+                                    <li><a <?php if($active == "events") echo 'class="active"'; ?> href="https://businessofsoftware.org/events/">Events</a></li>
+                                    <li><a <?php if($active == "talks") echo 'class="active"'; ?> href="https://businessofsoftware.org/talks/">Talks</a></li>
+                                    <li><a <?php if($active == "blog") echo 'class="active"'; ?> href="https://businessofsoftware.org/blog/">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </nav>
+                </nav-->
 
