@@ -8,7 +8,17 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<script src="https://www.googleoptimize.com/optimize.js?id=OPT-TCZR68P"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8173047-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-8173047-3');
+</script>
+
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri()."/".$cobrand; ?>_favicon.png" />
@@ -190,7 +200,7 @@
 			        <div class="container-outer">
 			            <div class="container-inner clearfloat">
 
-			            	<a href="/">
+			            	<a href="https://businessofsoftware.org/">
 			            		<img src="https://businessofsoftware.org/wp-content/themes/bln-corporate/event-images/bos_logo_name_color_plain.svg" class="logo-2021" />
 			                </a>
 
@@ -214,28 +224,28 @@
 										$slug = 'events';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/events" <?=$active?> >Events</a>
+			                		<a href="https://businessofsoftware.org/events" <?=$active?> >Events</a>
 			                	</li>
 			                	<li>
 			                		<?php 
 										$slug = 'talks';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/talks" <?=$active?> >Talks</a>
+			                		<a href="https://businessofsoftware.org/talks" <?=$active?> >Talks</a>
 			                	</li>
 			                	<li>
 			                		<?php 
 										$slug = 'blog';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/blog" <?=$active?> >Blog</a>
+			                		<a href="https://businessofsoftware.org/blog" <?=$active?> >Blog</a>
 			                	</li>
 			                	<li>
 			                		<?php 
 										$slug = 'updates';
 										$active = ($slug == $req) ? ' class="active"' : '';
 									?>
-			                		<a href="/updates" <?=$active?> >Subscribe</a>
+			                		<a href="https://businessofsoftware.org/updates" <?=$active?> >Subscribe</a>
 			                	</li>
 			                	<?php 
         
